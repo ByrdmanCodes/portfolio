@@ -1,5 +1,16 @@
+
 body {
     background-color: white;
+}
+
+header {
+    background-image: url("../../IMG/Akihabara01.jpg");
+    height: 175px;
+    position: relative;
+}
+
+.header {
+    color: white;
 }
 
 h2 {
@@ -7,13 +18,38 @@ h2 {
     
 }
 
-
+.hcolor {
+    color: white
+}
 
 img {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.textcolor {
+    color: white;
+    background-color: 000000;
+    border: 3px solid black;
+    height: 200px;
+    width: 900px;
+    margin-right: 5px;
+}
+
+div {
+    float: left;
+    width: 170px;
+    margin-top: 0px;
+    padding: 0px;
+    border: 0px solid black;
+    text-align: left;
+}
+
+.contact {
     float: right;
-    width: 120px;
-    margin: 0 0 15px 20px;
-    padding: 15px;
-    border: 1px solid black;
-    text-align: center;
+    color: white;
+    background-color: black
+    
 }
