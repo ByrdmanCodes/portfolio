@@ -15,10 +15,10 @@ ul.topnav li a {
     display: inline-block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 25px;
     text-decoration: none;
     transition: 0.3s;
-    font-size: 17px;
+    font-size: 21px;
 }
 
 ul.topnav li.icon {display: none;}
@@ -26,16 +26,19 @@ ul.topnav li.icon {display: none;}
 
 body {
     background-color: white;
+    text-align: center
 }
 
 header {
     background-image: url("../../IMG/Akihabara01.jpg");
-    height: 175px;
+    height: 100px;
     position: relative;
+    padding-top: 5
 }
 
 .header {
     color: white;
+    text-align: center
 }
 
 h2 {
@@ -72,7 +75,7 @@ div {
     text-align: left;
 }
 
-.contact {
+.contactMe {
     float: right;
     color: white;
     background-color: black
@@ -83,4 +86,73 @@ div {
     border: 2px solid black;
     width: 300px;
     height: 300px;
+}
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+
+form {
+    margin:0 auto;
+    width:459px;
+}
+
+input, textarea {
+	width:439px;
+	height:27px;
+	background:#efefef;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+}
+
+textarea {
+	height:213px;
+	background-color: #efefef;
+}
+
+header1 {
+    background-color: black
+    height: 50px;
+    position: relative;
+}
+
+footer {
+    background-color: black;
+    height: 50px;
+    position: relative;
+}
+
+.contact {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 21px;
+}
+
+.portfolio {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 21px;
+}
+
+.index {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 21px;
 }
