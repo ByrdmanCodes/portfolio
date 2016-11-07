@@ -52,10 +52,25 @@ h2 {
 
 img {
     
+    opacity: 0.5;
+    filter: alpha(opacity=50);
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+img2 {
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 5px;
 }
 
 .textcolor {
@@ -67,14 +82,7 @@ img {
     margin-right: 5px;
 }
 
-div {
-    float: left;
-    width: 170px;
-    margin-top: 0px;
-    padding: 0px;
-    border: 0px solid black;
-    text-align: left;
-}
+
 
 .contactMe {
     float: right;
@@ -125,7 +133,7 @@ header1 {
 footer {
     background-color: black;
     height: 50px;
-    position: relative;
+    
 }
 
 .footer {
