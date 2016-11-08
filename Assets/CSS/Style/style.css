@@ -51,6 +51,10 @@ h2 {
     background-color: black;
     
 }
+.h3 {
+    
+    text-align: right;
+}
 
 .hcolor {
     color: white
@@ -177,3 +181,7 @@ footer {
     font-size: 21px;
 }
 
+@media (max-width: 800px) {
+  body {
+    background-color: lightgrey;
+  }
